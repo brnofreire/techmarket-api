@@ -292,12 +292,3 @@ Observações: as validações no front-end melhoram a experiência do usuário,
 - `README.md` — (este arquivo) documentação do projeto e propostas técnicas.
 
 ---
-
-Se quiser, eu posso:
-
-- Gerar um `Dockerfile` e um `docker-compose.yml` de exemplo;
-- Implementar validação de CPF completa (algoritmo dos dígitos verificadores) no front-end e back-end;
-- Criar a procedure SQL adaptada para PostgreSQL;
-- Adicionar testes automatizados para o endpoint de transferência.
-
-Diga qual das ações acima prefere que eu implemente primeiro.
