@@ -267,28 +267,3 @@ document.getElementById('formCadastro').addEventListener('submit', function(e){
 Observações: as validações no front-end melhoram a experiência do usuário, mas validações idênticas devem existir no back-end para segurança e integridade dos dados.
 
 ---
-
-## Boas práticas de entrega e observabilidade
-
-- Implementar idempotência em endpoints críticos com headers/tokens.
-- Usar HTTPS, autenticação forte e controle de acesso para operações financeiras.
-- Monitorar latência, taxa de erros e throughput; criar alarmes para picos e quedas.
-- Manter testes automatizados (unitários e integração) cobrindo cenários críticos.
-
----
-
-## Próximos passos recomendados
-
-1. Containerizar a aplicação e criar arquivo `Dockerfile`.
-2. Criar manifests para Kubernetes (Deployment, Service, HPA, Ingress).
-3. Implementar cache com Redis e usar read-replicas no banco.
-4. Acrescentar idempotência e tokens anti-replay na API de transferências.
-5. Melhorar validação de CPF com algoritmo (digitos verificadores) e testes.
-
----
-
-## Arquivos criados/editados
-
-- `README.md` — (este arquivo) documentação do projeto e propostas técnicas.
-
----
